@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/Predis/tests/Predis/PubSub
+END
+DispatcherLoopTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/Predis/tests/Predis/PubSub/DispatcherLoopTest.php
+END
+PubSubContextTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/Predis/tests/Predis/PubSub/PubSubContextTest.php
+END

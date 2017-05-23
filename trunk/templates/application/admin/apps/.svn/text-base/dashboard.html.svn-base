@@ -1,0 +1,146 @@
+<!-- ki -->
+<div class="page_section" id="project-page">
+    <div id="container">
+        <div class="titlebox">
+            <h2 class="fl"><span class="icon-books">&nbsp;</span> Instagram Dynamic Content</h2>
+            <h2 class="fr"><a href="{$basedomain}projects" class="button2">Back</a></h2>
+        </div><!-- end .titlebox -->
+        <div class="content">
+            <div class="summary">
+                <p>Instagram Dynamic Content</p>
+            </div><!-- end .summary -->
+
+        
+            <div id="new-project" class="boxcontent">
+              <h3>( View Instagram Dynamic Content)</h3>
+	 <div class="newspage">
+			         <div class="newspage">
+			  {if $list}
+				{section name=i loop=$list} 
+					{if $list[i].n_status == 1}				
+					<table>
+					<td>
+						<img  src="{$list[i].profile_picture}" height="100" width="100" style="display: inline; margin: 0px 7px 0px 0px; border: solid 1px #eee; float: left" ></td>
+						<td width='200'>
+						<form class='FormInput' method='POST'>
+						 <span class="loading"></span>
+						<input type="submit" name="active" id="status" value="active" class="button icon-user4 aktif" >
+						<input type="hidden" value="{$list[i].id}" name="idnya" id="idnya">
+						<input type="hidden" value="active" name="status" id="active" >
+						 
+						</td> 
+						<td width='200'>
+						</form>
+						<form class='FormPrint' method='POST'>
+					
+						<input type="submit" name="Print" id="Print" value="Print" class="button icon-user4 print" >
+						<input type="hidden" value="{$list[i].id}" name="idnya" id="idnya">
+						<input type="hidden" value="Print" name="Print" id="active">
+						</form>
+						</td>
+						
+						
+					{/if}
+						
+						
+						
+						
+						
+					</table>	
+						{/section}
+				{/if}		</div><br><br><br><br>
+            </div><!-- end #wizard -->
+            
+        </div><!-- end .content -->
+    </div><!-- end #container -->
+</div><!-- end #home -->
+
+
+{literal}
+	 <script type="text/javascript">
+	 function func1() {
+			$('.activec').addClass('hide');
+			$('.inactivec').addClass('hide');
+		}
+	window.onload=func1;
+	</script>
+	
+	<script type="text/javascript">
+		 
+		$().ready(function(){
+			$('.FormInput').submit(function(e){
+				  e.preventDefault();
+					 $.ajax({
+					
+							'type': 'POST',
+							'url': ''+basedomain+'home/status',
+							'data': $(this).serialize(),
+							'dataType':'json',
+							'beforeSend':function(){
+													console.log($(this).find('aktif'));
+														$(this).find('.aktif').hide();
+														$(".loading").html("Please wait....");
+															
+             										},
+							'success': function(result){
+							
+						
+						if(result.status == '1' )
+								{
+									location.reload();
+								}else if (result.status == '2')
+								{
+									location.reload();
+								}
+							
+							
+							
+							}
+						});
+					});
+				 });
+		   
+
+	
+	</script>
+	<script type="text/javascript">
+		 
+		$().ready(function(){
+			$('.FormPrint').submit(function(e){
+			//console.log('ss');exit;
+				  e.preventDefault();
+					 $.ajax({
+					
+							'type': 'POST',
+							'url': ''+basedomain+'home/printer',
+							'data': $(this).serialize(),
+							'dataType':'json',
+							'beforeSend':function(){
+														$('.print').addClass('hide');
+														$(".loading").html("Please wait....");
+															
+             										},
+							'success': function(result){
+							
+						
+						if(result.status == '1' )
+								{
+									location.reload();
+								}else if (result.status == '2')
+								{
+									location.reload();
+								}
+							
+							
+							
+							}
+						});
+					});
+				 });
+		   
+
+	
+	</script>
+	
+	
+	{/literal}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<title>Login with Facebook</title>
+</head>
+<body>
+
+<div id="fb-root"></div>
+<h2>Login HotSpot Menggunakan Facebook</h2><br />
+<div id="user-info"></div>
+<p><button id="fb-auth">Login</button></p>
+<script>
+window.fbAsyncInit = function() {
+FB.init({ appId: '741754085837151',
+status: true,
+cookie: true,
+xfbml: true,
+oauth: true});
+
+function updateButton(response) {
+var button = document.getElementById('fb-auth');
+if (response.authResponse) {
+//user is already logged in and connected
+var userInfo = document.getElementById('user-info');
+
+FB.api('/me', function(response) {
+
+ 
+FB.api('/me/likes/235957854769', function(responselike) {
+		if(responselike.data.length){
+					self.location='success.html';
+				 
+		}else{
+					self.location='like.html';
+					 
+		}
+});
+ 
+});
+
+button.onclick = function() {
+FB.logout(function(response) {
+var userInfo = document.getElementById('user-info');
+userInfo.innerHTML="";
+});
+};
+} else {
+//user is not connected to your app or logged out
+button.onclick = function() {
+FB.login(function(response) {
+if (response.authResponse) {
+	FB.api('/me', function(response) {
+	//var userInfo = document.getElementById('user-info');
+	 
+		FB.api('/me/likes/235957854769', function(responselike) {
+			 if(responselike.data.length){
+					self.location='success.html';
+				 
+				}else{
+					self.location='like.html';
+					 
+				}
+		});
+		
+	});
+} else {
+	//user cancelled login or did not grant authorization
+	//self.location='loginface.html';
+}
+}, {scope:'email'});
+}
+}
+}
+// run once with current status and whenever the status changes
+FB.getLoginStatus(updateButton);
+FB.Event.subscribe('auth.statusChange', updateButton);
+};
+ (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+</body>
+</html>

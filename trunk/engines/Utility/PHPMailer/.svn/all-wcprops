@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/PHPMailer
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/PHPMailer/LICENSE
+END
+changelog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/PHPMailer/changelog.txt
+END
+docs.ini
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/PHPMailer/docs.ini
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/PHPMailer/class.phpmailer.php
+END
+class.pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/PHPMailer/class.pop3.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/PHPMailer/README.md
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/PHPMailer/class.smtp.php
+END

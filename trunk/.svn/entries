@@ -1,0 +1,79 @@
+10
+
+dir
+10
+https://acit@kana.svn.beanstalkapp.com/cartier-instagram/trunk
+https://acit@kana.svn.beanstalkapp.com/cartier-instagram
+
+
+
+2014-09-12T09:03:18.762510Z
+10
+acit
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+645c4320-d6ea-4fdf-b195-b601bac8438d
+
+authentication
+dir
+
+db
+dir
+
+engines
+dir
+
+socialhotspot
+dir
+
+templates
+dir
+
+tools
+dir
+
+landing_html
+dir
+
+service
+dir
+
+tmp
+dir
+
+public_html
+dir
+
+HTML
+dir
+
+logs
+dir
+
+config
+dir
+
+dashboard_html
+dir
+
+admin_html
+dir
+
+client_app
+dir
+
+com
+dir
+

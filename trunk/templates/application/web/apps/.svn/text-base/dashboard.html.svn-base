@@ -1,0 +1,146 @@
+<div class="page_section" id="home">
+    <div id="homeBanner">
+        <div id="bannerwrapper">
+		<span class="loading" style="width:40px;height:40px;"></span>
+            <div class="flexslider">
+              <ul class="slides">
+                	<li>
+                    
+         	  {if $list}
+				{section name=i loop=$list} 
+					{if $list[i].n_status == 1}			
+					 
+					
+						<div class="box">
+                        	<div class="imgbox"><img src="{$list[i].images}" /></div>
+                            <div class="imgcaption">
+                            	<div class="thumbuser"></div>
+							
+					<form class='FormInput' method='POST'>
+						<input type="hidden" value="{$list[i].id}" name="idnya" id="idnya">
+						<input type="hidden" value="Print" name="Print" id="active">
+						
+                         <a href="#" class="submithref">  {$list[i].username}</a>
+							
+					</form>
+                            </div><!-- end .imgcaption -->
+                        </div><!-- end .box -->
+
+							{/if}
+						{/section}
+				{/if}	
+                    </li>
+					  	<li>
+                    
+         	  {if $twolist}
+				{section name=i loop=$twolist} 
+					{if $twolist[i].n_status == 1}			
+					
+					
+						<div class="box">
+                        	<div class="imgbox"><img src="{$twolist[i].images}" class="imagenya"/> </div>
+                            <div class="imgcaption">
+                            	<div class="thumbuser"></div>
+								<form class='FormInput' id="Forminput" method='POST'>
+								<input type="hidden" value="{$twolist[i].id}" name="idnya" id="idnya">
+								<input type="hidden" value="Print" name="Print" id="active">
+								<a href="#" class="submithref">{$twolist[i].username}e</a>
+								
+							  	</form>
+                            </div><!-- end .imgcaption -->
+                        </div><!-- end .box -->
+
+							{/if}
+						{/section}
+				{/if}	
+                    </li>
+              </ul>
+            </div><!-- end .flexslider -->
+        </div> <!-- end #bannerwrapper -->
+    </div><!-- end #homeBanner -->
+</div><!-- end #home -->
+
+
+	
+<script type="text/javascript">
+
+var basedomain="{$basedomain}";	
+var str="";
+{literal}	
+setInterval(function(){location.reload();}, 5000);
+		$().ready(function(){
+		$('.submithref').click(function(e){
+			
+					 $.ajax({
+					
+							'type': 'POST',
+								'url': ''+basedomain+'home/printer',
+							'data': $(this).parent().serialize(),
+							'dataType':'json',
+							'beforeSend':function(){
+							$(".box").hide();
+													 $('.flexslider').flexslider("pause");		
+															$(".loading").html('<img src="'+basedomain+'assets/images/loader.gif" witdh="100" height="100">');
+													
+															
+             										},
+							'success': function(result){
+								$(".loading").html('');
+								$(".box").show();
+								$('.flexslider').flexslider("play");	
+						
+						if(result.status == '1' )
+								{
+								
+									//location.reload();
+								}else if (result.status == '2')
+								{
+									location.reload();
+								}
+							
+							
+							
+							}
+						});
+					});
+				 
+		    });
+
+	
+	</script>
+	<script type="text/javascript">
+		 
+		$().ready(function(){
+			$('.FormPrint').submit(function(e){
+			//console.log('ss');exit;
+				  e.preventDefault();
+					 $.ajax({
+					
+							'type': 'POST',
+							'url': ''+basedomain+'home/printer',
+							'data': $(this).serialize(),
+							'dataType':'json',
+							'success': function(result){
+							
+						
+						if(result.status == '1' )
+								{
+									location.reload();
+								}else if (result.status == '2')
+								{
+									location.reload();
+								}
+							
+							
+							
+							}
+						});
+					});
+				 });
+		   
+
+	
+	</script>
+	
+	
+	{/literal}

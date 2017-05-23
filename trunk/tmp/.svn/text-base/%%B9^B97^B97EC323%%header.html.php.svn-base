@@ -1,0 +1,28 @@
+<?php /* Smarty version 2.6.13, created on 2014-09-02 17:07:39
+         compiled from application/admin//header.html */ ?>
+<div id="top">
+	<div class="wrapper menuHeader">    	
+       
+     <div style="float:left;">
+        	<a href="<?php echo $this->_tpl_vars['basedomain']; ?>
+home" class="boxbtn userName">Hi, <?php echo $this->_tpl_vars['user']->name; ?>
+</a>
+			        </div>
+       <a class="boxbtn logoutButton" href="<?php echo $this->_tpl_vars['basedomain']; ?>
+logout.php"><span class="ico icon-lock">&nbsp;</span><span>Logout</span></a>
+		 		  <a class="boxbtn <?php if ($this->_tpl_vars['pages'] == 'users'): ?>active<?php endif; ?>" href="<?php echo $this->_tpl_vars['basedomain']; ?>
+regulation"><span class="ico icon-users">&nbsp;</span><span>Regulation</span></a>
+		 <a class="boxbtn <?php if ($this->_tpl_vars['pages'] == 'users'): ?>active<?php endif; ?>" href="<?php echo $this->_tpl_vars['basedomain']; ?>
+systemshin"><span class="ico icon-users">&nbsp;</span><span>System</span></a>
+		<a class="boxbtn <?php if ($this->_tpl_vars['pages'] == 'users'): ?>active<?php endif; ?>" href="<?php echo $this->_tpl_vars['basedomain']; ?>
+location"><span class="ico icon-users">&nbsp;</span><span>Location</span></a>
+		<a class="boxbtn <?php if ($this->_tpl_vars['pages'] == 'users'): ?>active<?php endif; ?>" href="<?php echo $this->_tpl_vars['basedomain']; ?>
+news"><span class="ico icon-users">&nbsp;</span><span>News & Update</span></a>	
+		<a class="boxbtn <?php if ($this->_tpl_vars['pages'] == 'addeducation'): ?>active<?php endif; ?>" href="<?php echo $this->_tpl_vars['basedomain']; ?>
+home/listeducation"><span class="ico icon-users">&nbsp;</span><span>Education</span></a>
+      
+                
+
+    </div><!-- end .wrapper -->  
+    
+</div><!-- end #top --> 

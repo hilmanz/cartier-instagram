@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets
+END
+register-user-lists.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/register-user-lists.html
+END
+add-modules.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/add-modules.html
+END
+administrator-roles-lists.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/administrator-roles-lists.html
+END
+administrator-user-permission-lists.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/administrator-user-permission-lists.html
+END
+create-user.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/create-user.html
+END
+navigation.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/navigation.html
+END
+create-user-roles.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/create-user-roles.html
+END
+downloaddata.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/downloaddata.html
+END
+edit-user.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/edit-user.html
+END
+administrator-user-permission.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/administrator-user-permission.html
+END
+module-permission-list.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/module-permission-list.html
+END
+shorter.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/shorter.html
+END
+add-permission-user.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/add-permission-user.html
+END
+administrator-user-hirarkies.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/cartier-instagram/!svn/ver/3/trunk/templates/application/web/widgets/administrator-user-hirarkies.html
+END

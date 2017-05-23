@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/cartier-instagram/!svn/ver/8/trunk/templates/application/admin/apps
+END
+edit_location.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/edit_location.html
+END
+edit_regulation.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/edit_regulation.html
+END
+new_systemshin.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/new_systemshin.html
+END
+edit_education.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/edit_education.html
+END
+edit_news.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/edit_news.html
+END
+new_location.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/new_location.html
+END
+new_regulation.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/new_regulation.html
+END
+new_education.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/new_education.html
+END
+new_news.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/new_news.html
+END
+dashboard.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cartier-instagram/!svn/ver/8/trunk/templates/application/admin/apps/dashboard.html
+END
+home.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/home.html
+END
+edit_system.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/edit_system.html
+END
+entourage.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cartier-instagram/!svn/ver/6/trunk/templates/application/admin/apps/entourage.html
+END
+listgallery.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/listgallery.html
+END
+content_view_regulation.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/content_view_regulation.html
+END
+listcareer.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cartier-instagram/!svn/ver/6/trunk/templates/application/admin/apps/listcareer.html
+END
+content_view_education.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/cartier-instagram/!svn/ver/6/trunk/templates/application/admin/apps/content_view_education.html
+END
+contentview_news.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cartier-instagram/!svn/ver/6/trunk/templates/application/admin/apps/contentview_news.html
+END
+listsystemshin.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cartier-instagram/!svn/ver/6/trunk/templates/application/admin/apps/listsystemshin.html
+END
+contact_us.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cartier-instagram/!svn/ver/6/trunk/templates/application/admin/apps/contact_us.html
+END
+listlocation.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/listlocation.html
+END
+content_view.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/content_view.html
+END
+edit_gallery.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/edit_gallery.html
+END
+listregulation.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cartier-instagram/!svn/ver/6/trunk/templates/application/admin/apps/listregulation.html
+END
+faq.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/cartier-instagram/!svn/ver/6/trunk/templates/application/admin/apps/faq.html
+END
+listeducation.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/cartier-instagram/!svn/ver/6/trunk/templates/application/admin/apps/listeducation.html
+END
+content_view_system.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/content_view_system.html
+END
+listnews.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/cartier-instagram/!svn/ver/6/trunk/templates/application/admin/apps/listnews.html
+END
+new_gallery.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/new_gallery.html
+END
+new_career.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cartier-instagram/!svn/ver/3/trunk/templates/application/admin/apps/new_career.html
+END

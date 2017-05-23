@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/cartier-instagram/!svn/ver/3/trunk/com/application/services
+END
+entourage.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/entourage.php
+END
+facebook_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/facebook_service.php
+END
+logout.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/logout.php
+END
+content.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/content.php
+END
+example_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/example_service.php
+END
+mop.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/mop.php
+END
+twitterApi.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/twitterApi.php
+END
+pushService.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/pushService.php
+END
+registrant.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/registrant.php
+END
+twitter_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/twitter_service.php
+END
+synch.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/synch.php
+END
+track.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/track.php
+END
+my.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/my.php
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/cartier-instagram/!svn/ver/3/trunk/com/application/services/login.php
+END

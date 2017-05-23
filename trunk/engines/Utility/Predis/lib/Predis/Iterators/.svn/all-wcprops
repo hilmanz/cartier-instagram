@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/Predis/lib/Predis/Iterators
+END
+MultiBulkResponseSimple.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/Predis/lib/Predis/Iterators/MultiBulkResponseSimple.php
+END
+MultiBulkResponseTuple.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/Predis/lib/Predis/Iterators/MultiBulkResponseTuple.php
+END
+MultiBulkResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/cartier-instagram/!svn/ver/3/trunk/engines/Utility/Predis/lib/Predis/Iterators/MultiBulkResponse.php
+END
